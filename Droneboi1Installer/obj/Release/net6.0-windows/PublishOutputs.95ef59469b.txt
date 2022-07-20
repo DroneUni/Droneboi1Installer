@@ -1,0 +1,5 @@
+C:\Users\sapoi\Documents\GitHub\Droneboi1Installer\Droneboi1Installer\bin\Release\publish\Droneboi1Installer.exe
+C:\Users\sapoi\Documents\GitHub\Droneboi1Installer\Droneboi1Installer\bin\Release\publish\Droneboi1Installer.dll
+C:\Users\sapoi\Documents\GitHub\Droneboi1Installer\Droneboi1Installer\bin\Release\publish\Droneboi1Installer.deps.json
+C:\Users\sapoi\Documents\GitHub\Droneboi1Installer\Droneboi1Installer\bin\Release\publish\Droneboi1Installer.runtimeconfig.json
+C:\Users\sapoi\Documents\GitHub\Droneboi1Installer\Droneboi1Installer\bin\Release\publish\Droneboi1Installer.pdb

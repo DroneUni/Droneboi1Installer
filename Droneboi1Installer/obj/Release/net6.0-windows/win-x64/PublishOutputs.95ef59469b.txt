@@ -1,0 +1,2 @@
+C:\Users\sapoi\Documents\GitHub\Droneboi1Installer\Droneboi1Installer\bin\Release\publish\Droneboi1Installer.pdb
+C:\Users\sapoi\Documents\GitHub\Droneboi1Installer\Droneboi1Installer\bin\Release\publish\Droneboi1Installer.exe

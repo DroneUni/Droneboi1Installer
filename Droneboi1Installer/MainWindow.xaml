@@ -1,0 +1,26 @@
+﻿<Window x:Class="Droneboi1Installer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Droneboi1Installer"
+        mc:Ignorable="d"
+        Title="DBi" Height="450" Width="800" WindowStyle="SingleBorderWindow" SizeToContent="Manual" ResizeMode="CanMinimize" Icon="/space.png">
+    <Grid>
+        <Image x:Name="background" Source="/space.png" Stretch="UniformToFill" StretchDirection="Both"/>
+        <TextBlock x:Name="title" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Droneboi 1 Installer" VerticalAlignment="Top" Foreground="#FFE8E8E8" Margin="0,38,0,0" FontSize="48" FontFamily="Segoe UI Variable Display Semibold" FontWeight="Normal" Height="63" Width="420">
+            <TextBlock.Effect>
+                <DropShadowEffect/>
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock x:Name="version" HorizontalAlignment="Left" Margin="615,82,0,0" TextWrapping="Wrap" Text="v0.44" VerticalAlignment="Top" Foreground="White" FontFamily="Segoe UI Variable Display Semilight" FontSize="18" FontWeight="Normal" RenderTransformOrigin="0.003,0.5" Height="24" Width="41"/>
+        <Button x:Name="button" Content="Install" HorizontalAlignment="Center" VerticalAlignment="Top" Width="364" Height="104" Margin="0,289,0,0" FontFamily="Bahnschrift SemiBold" FontWeight="Normal" FontSize="72" Background="#FF363636" Foreground="#FFDDDDDD"/>
+        <Image x:Name="logo" Source="/rizen.png" Margin="13,0,0,71" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="26"/>
+        <Label Content="Game made by Beau" HorizontalAlignment="Left" Margin="43,0,0,73" VerticalAlignment="Bottom" Background="{x:Null}" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="9" Height="22" Width="118" RenderTransformOrigin="1.133,-0.436"/>
+        <Image x:Name="logo_Copy" Source="/options.png" VerticalAlignment="Bottom" HorizontalAlignment="Left" Height="26" Width="26" Margin="13,0,0,43"/>
+        <Label Content="Installer made by toasty#5138" HorizontalAlignment="Left" Margin="43,0,0,43" VerticalAlignment="Bottom" Background="{x:Null}" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="9" Height="22" Width="136"/>
+        <Image x:Name="logo_Copy1" Source="/discord.png" Margin="13,0,0,12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="26"/>
+        <Label Content="https://discord.gg/bmfH8xTRjk" HorizontalAlignment="Left" Margin="43,0,0,16" VerticalAlignment="Bottom" Background="{x:Null}" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="9" Height="22" Width="145" RenderTransformOrigin="0.34,-0.685"/>
+
+    </Grid>
+</Window>
